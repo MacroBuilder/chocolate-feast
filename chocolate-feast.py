@@ -14,4 +14,4 @@ def chocolate(n,c,m):
 test_cases = int(raw_input().strip())
 for _ in range(test_cases):
     A,B,C1 = [int(x) for x in raw_input().split()]
-    Choco(A,B,C1)
+    chocolate(A,B,C1)
